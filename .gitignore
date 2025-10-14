@@ -1,0 +1,12 @@
+# ignore all of the files
+*
+# include .gitignore
+!.gitignore
+# include server and client code
+!moovit_client.py
+!moovit_server.py
+# include logo.ico
+!logo.ico
+#include README file
+!README.md
+!*/
