@@ -858,8 +858,9 @@ class Moovit:
         self.print_db_format_example(tables_to_print)
 
         # socket setup:
+        self.port = 1973
         server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        server_socket.bind(('0.0.0.0', 1973))
+        server_socket.bind(('0.0.0.0', self.port))
         server_socket.listen(3)
         print("waiting")
 

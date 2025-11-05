@@ -238,10 +238,12 @@ class Client:
         """
         # trying to connect until connected:
         self.my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.server_ip = '127.0.0.1'
+        self.server_port = 1973
         print("trying to connect...")
         while True:
             try:
-                self.my_socket.connect(('127.0.0.1', 1973))
+                self.my_socket.connect((self.server_ip, self.server_port))
                 break
             except:
                 pass
