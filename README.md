@@ -7,23 +7,23 @@ A python and SQL project of an app giving clients real info about public transpo
 
 download the files from the link or clone the repo to your device
 
-Server Setup:
+**Server Setup:**
 
-make sure you have internet connection
+1. make sure you have internet connection
 
-run moovit_server
+2. run moovit_server
 
-now the program will download the needed files and transfer all the data to a new SQL server
+3. now the program will download the needed files and transfer all the data to a new SQL server
 
-after it is finished the console will say "waiting" (waiting for a client)
+4. after it is finished the console will say "waiting" (waiting for a client)
 
-Client:
+**Client:**
 
-open the client program code (moovit_client.py)
+1. open the client program code (moovit_client.py)
 
-make sure the port and ip (self.server_port, self.server_ip in moovit_client.py) matches the server's machine ip and port (machine's ip, self.port in moovit_server.py)
+2. make sure the port and ip (self.server_port, self.server_ip in moovit_client.py) matches the server's machine ip and port (machine's ip, self.port in moovit_server.py)
 
-run moovit_client.py
+3. run moovit_client.py
 
 
 ## How It's Made:
@@ -31,6 +31,8 @@ run moovit_client.py
 **Tech used:** Python, SQLite, Socket, Threading
 
 The project was written as a graduating high school project in Python. Self learned SQL, Git to make it.
+
+The project was written in 2020 which means no AI involved.
 
 ## Optimizations
 
